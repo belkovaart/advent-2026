@@ -7,7 +7,7 @@
 // - "TEST" — ручной тест: можно выставить любой "сегодняшний день" 1..7
 const CONFIG = {
   year: 2026,
-  mode: "JAN", // <- на время тестов поставь "TEST"
+  mode: "TEST", // <- на время тестов поставь "TEST"
   testDay: 2, // <- для TEST: 1..7
 };
 
@@ -237,3 +237,4 @@ setInterval(() => {
   setTodayBanner();
   updateCardsState();
 }, 60 * 1000);
+
